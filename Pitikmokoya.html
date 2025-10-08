@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Link</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS to style the page and center the content */
+        body {
+            /* Set background to black */
+            background-color: #000000;
+            /* Use Poppins as the primary font, with a generic sans-serif fallback */
+            font-family: 'Poppins', sans-serif;
+            /* Set default text color to white for contrast */
+            color: #ffffff;
+            /* Full viewport height for centering */
+            min-height: 100vh;
+            margin: 0;
+            /* Flexbox for perfect center alignment */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Styling for the main message (smaller) */
+        h1 {
+            font-size: 1.2em; /* Reduced size slightly */
+            margin-bottom: 20px;
+            font-weight: 400; /* Regular Poppins weight */
+        }
+
+        /* Styling for the container that holds the link */
+        .link-container {
+            max-width: 90%;
+            padding: 10px;
+        }
+
+        /* Styling for the actual link (bold, blue, and larger) */
+        a {
+            /* NEW: Set color to a vibrant blue */
+            color: #4A90E2; 
+            /* NEW: Make the link text larger than the heading */
+            font-size: 1.8em; 
+            /* NEW: Make the link bold */
+            font-weight: 700; 
+            text-decoration: none; /* Removed the underline for a cleaner look */
+            word-break: break-all;
+            /* Add padding and border to make it look like a button */
+            border: 2px solid #4A90E2;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            /* Change background color on hover for visual feedback */
+            background-color: #4A90E2;
+            color: #000000; /* Text turns black on hover */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Please click the link to view the website</h1>
+
+    <div class="link-container">
+        <a href="https://pitikmokoya-official.my.canva.site/" target="_blank">
+            https://pitikmokoya-official.my.canva.site/
+        </a>
+    </div>
+
+</body>
+</html>
